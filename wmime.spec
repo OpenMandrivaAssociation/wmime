@@ -10,6 +10,9 @@ Summary:	C++ class library for working with RFC-822/MIME messages and mail servi
 URL:		https://github.com/wmime/wmime
 License:	GPL-3.0
 Group:		System/Libraries
+BuildRequires:	doxygen
+# Just so cmake can find the path for the sendmail executable
+BuildRequires:	postfix
 BuildSystem:	cmake
 
 %description
