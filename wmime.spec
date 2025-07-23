@@ -11,8 +11,11 @@ URL:		https://github.com/wmime/wmime
 License:	GPL-3.0
 Group:		System/Libraries
 BuildRequires:	doxygen
+BuildRequires:	graphviz
 # Just so cmake can find the path for the sendmail executable
 BuildRequires:	postfix
+BuildRequires:	pkgconfig(libgsasl)
+BuildRequires:	pkgconfig(gnutls)
 BuildSystem:	cmake
 
 %description
