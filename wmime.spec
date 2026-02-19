@@ -7,7 +7,7 @@ Version:	1.1.0
 Release:	1
 Source0:	https://github.com/grommunio/wmime/releases/download/wmime-%{version}/wmime-%{version}.tar.zst
 Summary:	C++ class library for working with RFC-822/MIME messages and mail services (IMAP/POP/SMTP)
-URL:		https://github.com/wmime/wmime
+URL:		https://github.com/grommunio/wmime
 License:	GPL-3.0
 Group:		System/Libraries
 BuildRequires:	doxygen
