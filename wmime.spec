@@ -1,9 +1,9 @@
-%define major 2
+%define major 4
 %define libname %mklibname wmime
 %define devname %mklibname wmime -d
 
 Name:		wmime
-Version:	1.1.0
+Version:	1.3.0
 Release:	1
 Source0:	https://github.com/grommunio/wmime/releases/download/wmime-%{version}/wmime-%{version}.tar.zst
 Summary:	C++ class library for working with RFC-822/MIME messages and mail services (IMAP/POP/SMTP)
